@@ -1,10 +1,21 @@
 import React from 'react'
 
-import { ExampleComponent } from 'yummys'
+import { ExampleComponent, Button } from 'yummys'
+
 import 'yummys/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+
+    <> 
+      <ExampleComponent  text=" Library Example" />
+      <Button text="Click" onClick={() => alert("asd")} />
+     
+    </> 
+     
+    
+  )
+
 }
 
 export default App
