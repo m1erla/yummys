@@ -15,12 +15,12 @@ npm install --save yummys
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'yummys'
+import Yummys from 'yummys'
 import 'yummys/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Yummys />
   }
 }
 ```
