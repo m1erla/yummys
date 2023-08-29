@@ -17,14 +17,18 @@ button.btn{
   cursor: pointer;
   transition: background-color 100ms linear;
   border-radius: 5px;
-  background-color: #3498db;
+  
 }
 
 button.primary{
   border: 0px;
   background: #3498db;
-  background-color: aquamarine;
-  color: #ffff;
+ 
+}
+h1.title{
+  font-size: xx-large;
+  font-family: 'Courier New', Courier, monospace;
+  color: crimson;
 }
 
 button.default{

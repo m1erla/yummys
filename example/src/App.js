@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button, Text } from 'yummys'
+import { Button, Text, Title } from 'yummys'
 
 import 'yummys/dist/index.css'
 import 'yummys/src/styles.module.css'
@@ -9,6 +9,7 @@ const App = () => {
   return (
 
     <> 
+      <Title text="SAY HELLO TO NEW VERSION v1.1.0" type='title'/>
       <Text text="I created some unique buttons from yummys such as primary, default, dashed, text, link buttons."/>
     
       <Text text=" You can install npm yummys and ready to use."/>
