@@ -1,9 +1,49 @@
 /* add css module styles here (optional) */
 
-.test {
+text {
   margin: 2em;
   padding: 0.5em;
   border: 2px solid #000;
   font-size: 2em;
   text-align: center;
+}
+
+button.btn{
+  appearance: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 11px;
+  min-width: 125px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 100ms linear;
+  border-radius: 5px;
+}
+
+button.primary{
+  border: 0px;
+  background: #3498db;
+  background-color: aquamarine;
+  color: #ffff;
+}
+
+button.default{
+  border: 2px solid rgb(157, 157, 163);
+
+}
+
+button.dashed{
+  border: 2px dotted rgb(157, 157, 163);
+}
+
+button.text{
+  border: 0px rgb(157, 157, 163);
+}
+
+button.link{
+  border: 0px rgb(157, 157, 163);
+  color: blue;
+}
+
+button:hover{
+  opacity: 0.9;
 }

@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from './styles.module.css'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+
+
+export const Button = (props, type) => {
+     return <button className={`${styles.btn} ${styles[type]}}`}  {...props}>{props.text}</button>
 }
 
-export const Button = (props) => {
-     return <button {...props}>{props.text}</button>
+export const Text = (props) => {
+  return <p>{props.text}</p>
 }
