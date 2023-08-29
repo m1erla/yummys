@@ -3,8 +3,8 @@ import styles from './styles.module.css'
 
 
 
-export const Button = (props, type) => {
-     return <button className={`${styles.btn} ${styles[type]}}`}  {...props}>{props.text}</button>
+export const Button = ({type, text}) => {
+     return <button className={`${styles.btn} ${styles[type]}}`}  >{text}</button>
 }
 
 export const Text = (props) => {

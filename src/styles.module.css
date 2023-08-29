@@ -17,6 +17,7 @@ button.btn{
   cursor: pointer;
   transition: background-color 100ms linear;
   border-radius: 5px;
+  background-color: #3498db;
 }
 
 button.primary{

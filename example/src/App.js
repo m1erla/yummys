@@ -9,13 +9,15 @@ const App = () => {
   return (
 
     <> 
-      <Text text="I created some unique buttons from yummys such as primary, default, dashed, text, link buttons"/>
+      <Text text="I created some unique buttons from yummys such as primary, default, dashed, text, link buttons."/>
+    
+      <Text text=" You can install npm yummys and ready to use."/>
       <Button text="Click" onClick={() => alert("asd")} />
       <Button text='Primary Button' type='primary'/>
 
       <Button text='Default Button' type='default'/>
 
-      <Button text='Dashed Button' type='Dashed'/>
+      <Button text='Dashed Button' type='dashed'/>
 
       <Button text='Text Button' type='text'/>
 
